@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: black;
+    color: white;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    height: 90vh;
+}
+.counter{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    color: white;
+    display: flex;
+align-items: center;
+justify-content: space-around;
+border-radius: 30%;
+}
+#minus,#plus,#time{
+    font-family: sans-serif;
+    font-weight: 800;
+    cursor: pointer;
+
+}
+button{
+    font-size: x-large;
+    background-color: rgb(142, 234, 234);
+    color:rgb(15, 14, 14);
+    padding: 8px 25px;
+    cursor: pointer;
+    border-radius: 25%;
+}
+#reset{
+    margin-left: 300px;
+}
+#start{
+    margin-right: 300px;
+}
